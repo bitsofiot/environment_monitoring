@@ -1,2 +1,3 @@
-#bash
+#!/bin/bash
 hostname
+touch wwwwwwwwwwwww.wwwwwwwwwwwww
