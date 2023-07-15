@@ -1,3 +1,5 @@
 #!/bin/bash
-hostname
-touch wwwwwwwwwwwww.wwwwwwwwwwwww
+sudo apt update
+sudo apt install npm
+sudo npm install -g --unsafe-perm node-red
+
