@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo apt update
-sudo echo "$nrconf{restart} = 'a';" >> /etc/needrestart/needrestart.conf
+sudo sed -i 's/#$nrconf{restart} = '"'"'i'"'"';/$nrconf{restart} = '"'"'a'"'"';/g' /etc/needrestart/needrestart.conf
 sudo apt install npm -y
 npm install -g --unsafe-perm node-red
 npm install -g pm2
