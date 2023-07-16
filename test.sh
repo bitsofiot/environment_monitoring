@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo su
+sudo -i
 sudo apt update
 sudo echo "$nrconf{restart} = 'a';" >> /etc/needrestart/needrestart.conf
 sudo apt install npm -y
