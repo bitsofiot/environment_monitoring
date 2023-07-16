@@ -7,4 +7,4 @@ pm2 start /usr/local/bin/node-red -- -v
 pm2 save
 pm2 startup
 pm2 startup systemd
-node-red &
+node-red
