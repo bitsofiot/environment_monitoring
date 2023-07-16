@@ -8,4 +8,3 @@ sudo pm2 start /usr/local/bin/node-red -- -v
 sudo pm2 save
 sudo pm2 startup
 sudo pm2 startup systemd
-node-red
