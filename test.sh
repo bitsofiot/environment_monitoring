@@ -13,4 +13,4 @@ sudo pm2 startup systemd
 
 
 sudo add-apt-repository ppa:mosquitto-dev/mosquitto-ppa -y
-sudo apt install mosquitto --assume-yes --allow
+sudo apt install mosquitto -y
