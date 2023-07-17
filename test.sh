@@ -22,3 +22,4 @@ npm install --no-audit --no-update-notifier --no-fund --save --save-prefix=~ --p
 sudo add-apt-repository ppa:mosquitto-dev/mosquitto-ppa -y
 sudo apt install mosquitto -y
 
+curl -X POST http://localhost:1880/flows -H 'content-type: application/json' -d @flows
