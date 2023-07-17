@@ -11,6 +11,13 @@ sudo pm2 save
 sudo pm2 startup
 sudo pm2 startup systemd
 
+cd ~/.node-red
+npm install node-red-dashboard
+
+
+npm install --no-audit --no-update-notifier --no-fund --save --save-prefix=~ --production --engine-strict node-red-dashboard@3.5.0
+
 
 sudo add-apt-repository ppa:mosquitto-dev/mosquitto-ppa -y
 sudo apt install mosquitto -y
+
