@@ -26,5 +26,5 @@ chmod 755 /etc/mosquitto/
 echo "listener 1884 0.0.0.0" >> /etc/mosquitto/mosquitto.conf
 echo "allow_anonymous true" >> /etc/mosquitto/mosquitto.conf
 
-wget https://raw.githubusercontent.com/bitsofiot/udemy/main/flows
-curl -X POST http://localhost:1880/flows -H 'content-type: application/json' -d @flows
+#wget https://raw.githubusercontent.com/bitsofiot/udemy/main/flows
+#curl -X POST http://localhost:1880/flows -H 'content-type: application/json' -d @flows
