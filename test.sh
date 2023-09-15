@@ -21,6 +21,8 @@ npm install --no-audit --no-update-notifier --no-fund --save --save-prefix=~ --p
 add-apt-repository ppa:mosquitto-dev/mosquitto-ppa -y
 apt install mosquitto -y
 
+chmod 755 /etc/mosquitto/
+
 echo "listener 1884 0.0.0.0" >> /etc/mosquitto/mosquitto.conf
 echo "allow_anonymous true" >> /etc/mosquitto/mosquitto.conf
 
