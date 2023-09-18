@@ -19,6 +19,7 @@ n latest
 
 apt install npm -y
 # npm install -g n 
+n latest
 npm install -g --unsafe-perm node-red
 npm install -g pm2
 pm2 start /usr/local/bin/node-red -- -v
