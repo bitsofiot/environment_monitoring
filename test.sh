@@ -15,8 +15,10 @@ echo "listener 1883 0.0.0.0" >> /etc/mosquitto/mosquitto.conf
 echo "allow_anonymous true" >> /etc/mosquitto/mosquitto.conf
 
 
+n latest
 
 apt install npm -y
+# npm install -g n 
 npm install -g --unsafe-perm node-red
 npm install -g pm2
 pm2 start /usr/local/bin/node-red -- -v
