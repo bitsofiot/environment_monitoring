@@ -20,14 +20,14 @@ apt install npm -y
 npm install -g n 
 n latest
 npm install -g --unsafe-perm node-red
+cd ~/.node-red
+npm install node-red-dashboard
+
 npm install -g pm2
 pm2 start /usr/local/bin/node-red -- -v
 pm2 save
 pm2 startup
 pm2 startup systemd
-
-cd ~/.node-red
-npm install node-red-dashboard
 
 
 npm install --no-audit --no-update-notifier --no-fund --save --save-prefix=~ --production --engine-strict node-red-dashboard@3.5.0
