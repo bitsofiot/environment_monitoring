@@ -18,7 +18,7 @@ echo "allow_anonymous true" >> /etc/mosquitto/mosquitto.conf
 n latest
 
 apt install npm -y
-# npm install -g n 
+npm install -g n 
 n latest
 npm install -g --unsafe-perm node-red
 npm install -g pm2
