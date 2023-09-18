@@ -30,7 +30,7 @@ cd ~/.node-red
 npm install node-red-dashboard
 
 
-#npm install --no-audit --no-update-notifier --no-fund --save --save-prefix=~ --production --engine-strict node-red-dashboard@3.5.0
+npm install --no-audit --no-update-notifier --no-fund --save --save-prefix=~ --production --engine-strict node-red-dashboard@3.5.0
 
 
 
