@@ -34,5 +34,5 @@ npm install --no-audit --no-update-notifier --no-fund --save --save-prefix=~ --p
 
 
 
-#wget https://raw.githubusercontent.com/bitsofiot/udemy/main/flows
-#curl -X POST http://localhost:1880/flows -H 'content-type: application/json' -d @flows
+wget https://raw.githubusercontent.com/bitsofiot/udemy/main/flows
+curl -X POST http://localhost:1880/flows -H 'content-type: application/json' -d @flows
