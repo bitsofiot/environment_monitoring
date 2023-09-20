@@ -27,7 +27,7 @@ n latest
 
 echo -e "\n\n\n\n\n Node-red ............................................................."
 npm install -g --unsafe-perm node-red
-cd ~/.node-red
+#cd ~/.node-red
 
 echo -e "\n\n\n\n\n Install Dashboard for Node-red ............................................................."
 npm install node-red-dashboard
