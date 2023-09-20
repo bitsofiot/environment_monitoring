@@ -20,27 +20,27 @@ apt install npm -y
 
 
 echo -e "\n\n\n\n\n NodeJs ............................................................."
-sudo npm install -g n 
+npm install -g n 
 
 echo -e "\n\n\n\n\n updating NodeJs............................................................."
-sudo n latest
+n latest
 
 echo -e "\n\n\n\n\n Node-red ............................................................."
-sudo npm install -g --unsafe-perm node-red
+npm install -g --unsafe-perm node-red
 cd ~/.node-red
 
 echo -e "\n\n\n\n\n Install Dashboard for Node-red ............................................................."
-sudo npm install node-red-dashboard
+npm install node-red-dashboard
 
 echo -e "\n\n\n\n\n PM2 ............................................................."
-sudo npm install -g pm2
+npm install -g pm2
 pm2 start /usr/local/bin/node-red -- -v
 pm2 save
 pm2 startup
 pm2 startup systemd
 
 echo -e "\n\n\n\n\n\n Installing requirment for importing Flows ............................................................."
-sudo npm install --no-audit --no-update-notifier --no-fund --save --save-prefix=~ --production --engine-strict node-red-dashboard@3.5.0
+npm install --no-audit --no-update-notifier --no-fund --save --save-prefix=~ --production --engine-strict node-red-dashboard@3.5.0
 
 
 echo -e "\n\n\n\n\n\n Downloading and Importing Flows ............................................................."
