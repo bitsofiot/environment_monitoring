@@ -43,6 +43,6 @@ echo -e "\n\n\n\n\n\n Installing requirment for importing Flows ................
 sudo npm install --no-audit --no-update-notifier --no-fund --save --save-prefix=~ --production --engine-strict node-red-dashboard@3.5.0
 
 
-#echo -e "\n\n\n\n\n\n Downloading and Importing Flows ............................................................."
-#wget https://raw.githubusercontent.com/bitsofiot/udemy/main/flows
-#curl -X POST http://localhost:1880/flows -H 'content-type: application/json' -d @flows
+echo -e "\n\n\n\n\n\n Downloading and Importing Flows ............................................................."
+wget https://raw.githubusercontent.com/bitsofiot/udemy/main/flows
+curl -X POST http://localhost:1880/flows -H 'content-type: application/json' -d @flows
