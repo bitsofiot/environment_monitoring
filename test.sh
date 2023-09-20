@@ -33,7 +33,7 @@ echo -e "\n\n\n\n\n Install Dashboard for Node-red .............................
 sudo npm install node-red-dashboard
 
 echo -e "\n\n\n\n\n PM2 ............................................................."
-npm install -g pm2
+sudo npm install -g pm2
 pm2 start /usr/local/bin/node-red -- -v
 pm2 save
 pm2 startup
