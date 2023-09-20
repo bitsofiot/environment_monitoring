@@ -30,7 +30,7 @@ sudo npm install -g --unsafe-perm node-red
 #cd ~/.node-red
 
 echo -e "\n\n\n\n\n Install Dashboard for Node-red ............................................................."
-npm install node-red-dashboard
+sudo npm install node-red-dashboard
 
 echo -e "\n\n\n\n\n PM2 ............................................................."
 npm install -g pm2
