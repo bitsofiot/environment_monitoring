@@ -27,9 +27,10 @@ n latest
 
 echo -e "\n\n\n\n\n Node-red ............................................................."
 sudo npm install -g --unsafe-perm node-red
-#cd ~/.node-red
+
 
 echo -e "\n\n\n\n\n Install Dashboard for Node-red ............................................................."
+cd ~/.node-red
 sudo npm install node-red-dashboard
 
 echo -e "\n\n\n\n\n PM2 ............................................................."
