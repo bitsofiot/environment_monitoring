@@ -41,7 +41,7 @@ pm2 startup
 pm2 startup systemd
 
 echo -e "\n\n\n\n\n\n Installing requirment for importing Flows ............................................................."
-npm install --no-audit --no-update-notifier --no-fund --save --save-prefix=~ --production --engine-strict node-red-dashboard@3.5.0
+sudo npm install --no-audit --no-update-notifier --no-fund --save --save-prefix=~ --production --engine-strict node-red-dashboard@3.5.0
 
 
 echo -e "\n\n\n\n\n\n Downloading and Importing Flows ............................................................."
