@@ -47,4 +47,7 @@ sudo npm install --no-audit --no-update-notifier --no-fund --save --save-prefix=
 echo -e "\n\n\n\n\n\n Downloading and Importing Flows ............................................................."
 wget https://raw.githubusercontent.com/bitsofiot/udemy/main/flows
 curl -X POST http://localhost:1880/flows -H 'content-type: application/json' -d @flows
+
+
+echo -e "\n\n\n\n\n\n Rebooting ...................Please refresh the page..............................."
 sudo reboot
