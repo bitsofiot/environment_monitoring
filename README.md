@@ -2,4 +2,4 @@
 
 wget https://raw.githubusercontent.com/bitsofiot/udemy/main/install.sh \
 sudo chmod +x install.sh \
-sudo sh ./test.sh
+sudo sh ./install.sh
